@@ -1,0 +1,18 @@
+import React from "react";
+import ReactDOM from "react-dom";
+import "remixicon/fonts/remixicon.css";
+import Header from "home/Header";
+import Footer from "home/Footer";
+import Login from "./Login"
+import MiniCart from "./MiniCart"
+import "./index.scss";
+
+const App = () => (
+  <div className="mt-10 text-3xl mx-auto max-w-6xl">
+    <Header />
+    <Login />
+    <MiniCart />
+    <Footer />
+  </div>
+);
+ReactDOM.render(<App />, document.getElementById("app"));
