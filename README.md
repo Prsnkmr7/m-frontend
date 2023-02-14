@@ -7,6 +7,7 @@ pdp - standalone application
 cart - standalone application
 addtocart - standalone application
 server - standalone application for Server side code in next js
+
 Running Details
 localhost:3000 (HOST) - home
 localhost:3001 (STANDALONE REMOTE) - pdp
